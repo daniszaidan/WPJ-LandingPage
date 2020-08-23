@@ -1,0 +1,745 @@
+    body{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+        text-align: center;
+    }
+    nav ul{
+        width: 100%;
+        height: 110px;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+        z-index: 999;
+        background-color: transparent;
+            -webkit-transition: height 0.5s;
+            -moz-transition: height 0.5s;
+            -ms-transition: height 0.5s;
+            -o-transition: height 0.5s;
+            transition: height 0.5s;
+    }
+    nav ul li {
+        display: inline-block;
+        float: right;
+    }
+    #logo{
+        width: 400px;
+        height: 74px;
+        float: left;
+        margin: 17px 30px;
+                    -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+    }
+   
+    .text{
+        line-height: 110px;
+        padding: 40px 18px;
+        color: white;
+        font-family: "lato light";
+        font-weight: 700;
+        font-size: 25px;
+        text-decoration: none;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+    }
+    .learn{
+        padding: 40px 50px;
+        color: white;
+        font-family: "lato light";
+        float: left;
+        font-size: 25px;
+
+        text-decoration: none;
+            -webkit-transition: all 0.5s;
+            -moz-transition: all 0.5s;
+            -ms-transition: all 0.5s;
+            -o-transition: all 0.5s;
+            transition: all 0.5s;
+    }
+    .learn:hover{
+        background-color: rgba(1, 1, 1, 0.5);
+    }
+    .tengah{
+        line-height: 680px;
+        color: white;
+        font-size: 25pt;
+        font-family: "lato light";
+        position: absolute;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    .bawah{
+        line-height: 750px;
+        color: white;
+        font-size: 18pt;
+        font-family: "lato light";
+        position: absolute;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li a:hover{
+        color: #9999ff;
+    }
+    .dropbtn{
+        cursor: pointer;
+    }
+    .dropdown{
+    display: inline-block;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.4);
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    .dropdown-content a{
+        color: black;
+        padding: 17px 16px;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: lato;
+        text-align: left;
+        display: block;
+    }
+    .dropdown-content a:hover{
+        background-color: rgba(255, 255, 255, 0.3);
+        color: black;
+    }
+    nav ul li:hover .dropdown-content{
+        display: block;
+    }
+    nav ul.smaller {
+        height: 60px;
+        background-color: rgba(1, 1, 1, 0.5);
+    }
+    nav ul.smaller #logo{
+        width: 286px;
+        height: 53px;
+        float: left;
+        margin: 3px 15px;
+    }
+    nav ul.smaller #logolearn{
+        width: 286px;
+        height: 53px;
+        margin: 3px 20px;
+    }
+    nav ul.smaller .text {
+        line-height: 60px;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 20px;
+    }
+    nav ul.smaller .learn{
+        text-decoration: none;
+        font-size: 20px;
+        padding: 18px 20px;
+    }
+    nav ul.smaller .dropdown-content{
+        background-color: rgba(1, 1, 1, 0.7);
+        min-width: 140px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    nav ul.smaller .dropdown-content a{
+        color: white;
+        padding: 15px 14px;
+        font-size: 18px;
+    }
+    nav ul.smaller .dropdown-content a:hover {
+        background-color: rgba(0, 0, 255, 0.3);
+        padding-left: 25px;
+        transition: all 0.5s;
+    }
+    img{
+            width: 100%;
+            height: 100%;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+    #satu{
+
+    }
+    #dua{
+        background: url(../img/bg1.png) repeat fixed 100%;
+        z-index: -1;
+    }
+    #tiga{
+        
+    }
+    #empat{
+        
+    }
+    #lima{
+        background: url(../img/bg5.png) ;
+    }
+    #enam{
+        
+    }
+    .kolom{
+        height: 680px;
+        margin: 0;
+        padding: 0;
+    }
+    .gg{
+        padding-top: 80px;
+    }
+    #misi{
+        padding-top: 40px;
+    }
+    #rpllearn{
+        background: url(../img/bg4.png) fixed 100%;
+    }
+    #tkjlearn{
+        background: url(../img/bg3.png) fixed 100%;
+    }
+    .tablevisi{
+        text-align: center;
+        font-family: lato;
+        width: 90%;
+        margin: 0 auto;
+        border-spacing: 0;
+        border: 1px solid #d9d9d9;
+        border-top-right-radius: 11px;
+        border-top-left-radius: 11px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .tablemisi{
+        text-align: center;
+        font-family: lato;
+        width: 90%;
+        margin: 0 auto;
+        border-spacing: 0;
+        border: 1px solid #d9d9d9;
+        border-top-right-radius: 11px;
+        border-top-left-radius: 11px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .thead, .tbody{
+        display: block;
+    }
+    thead tr th{
+        height: 50px;
+        background-color: #d9d9d9;
+        width: 1220px;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+    }
+    .tablevisi td{
+        padding: 0 100px;
+        height: 150px;
+    }
+    .tbody {
+        height: 250px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .tbody td{
+        text-align: left;
+        padding-left: 30px;
+    }
+    table td, table th{
+    width: 1210px;
+    height: 53px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-bottom: 1px solid #d9d9d9;
+    font-size: 15pt;
+    }
+    
+    .contoh{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        color: white;
+        line-height: 680px;
+        font-size: 37pt;
+        font-family: lato;
+        text-shadow: 1px 1px 1px #e60000;
+    }
+    .ket{
+        margin: 0;
+        padding-top: 40px;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        color: white;
+        line-height: 680px;
+        font-size: 18pt;
+        font-family: quicksand;
+        text-shadow: 1px 1px 1px #e60000;
+    }
+    .lanjut{
+        float: right;
+        margin-top: 580px;
+        margin-left: 33%;
+        position: absolute;
+        color: white;
+        font-size: 16pt;
+        font-family: "lato light";
+        text-decoration: none;
+        border: 1px solid white;
+        padding: 10px 30px;
+    }
+    .lanjut:hover{
+        background-color: rgba(255,255,255,0.5);
+        transition: all 0.7s;
+    }
+    .kontak{
+        margin-bottom: 680px;
+        z-index: 4;
+    }
+    .full{
+        width: 100%;
+        height: 100%;
+    }
+    .kiri{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .kanan{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    .kiri p{
+        color: white;
+        font-family: lato;
+        font-size: 30pt;
+        text-align: left;
+        margin: 100px 0 25px 70px;
+        text-shadow: 2px 2px 2px #000000;
+    }
+    .hub{
+        width: 75%;
+        height: 78%;
+        display: block;
+        margin: 14% auto 0 auto;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    iframe{
+        margin-left: 65px;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .info{
+        width: 50%;
+        height: 23%;
+        float: left;
+    }
+    .info p{
+        text-align: left;
+        font-family: lato;
+        margin-left: 30px;
+        margin-top: 50px;
+        color: white;
+        font-size: 15pt;
+    }
+     .info p b{
+        font-size: 17pt;
+     }
+     .pesan{
+        width: 100%;
+        height: auto;
+        margin-top: 5px;
+        float: left;
+        display: block;
+     }
+     form{
+        width: 100%;
+        height: 100%;
+        display: block;
+     }
+    form input{
+        display: block;
+        width: 87%;
+        height: 40px;
+        margin: 20px auto;
+        border: none;
+        font-family: lato;
+        padding-left: 15px;
+    }
+    form input:focus{
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    form textarea{
+        display: block;
+        width: 87%;
+        height: 130px;
+        margin: 20px auto;
+        border: none;   
+        font-family: lato;
+        padding: 15px 0 0 15px;
+    }
+    form textarea:focus{
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    form .button{
+        display: block;
+        width: 40%;
+        height: 40px;
+        margin: 10px 25px;
+        float: right;
+        border: none;
+        font-family: lato;
+        cursor: pointer;
+        background-color: #00c6d7;
+        color: white;
+    }
+    form .button:hover{
+        color: black;
+        transition: all 0.6s ease-in-out;
+    }
+    .team{
+        position: fixed;
+        bottom: 0;
+        height: 680px;
+        width: 100%;
+        background-image: url(../img/team.png);
+        z-index: -5;
+    }
+    .at{
+        font-size: 15pt;
+        color: black;
+        text-decoration: none;
+        font-family: lato;
+        text-shadow: 1px 1px 1px #bfbfbf;
+    }
+    .team_satu{
+        height: 72%;
+        /*margin: 80px 8px 20px 8px;*/
+        margin: 6% 0.5% 1.4% 0.5%;
+        width: 31.5%;
+        background-color: rgba(255,255,255,0.5);
+        float: left;
+        margin-left: 1%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.7);
+    }
+    .team_dua{
+        height: 72%;
+        margin: 6% 0.5% 1.4% 0.5%;
+        width: 31.5%;
+        background-color: rgba(255,255,255,0.5);
+        float: left;
+        margin-left: 1%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.7);
+    }
+    .team_tiga{
+        height: 72%;
+        margin: 6% 0.5% 1.4% 0.5%;
+        width: 31.5%;
+        background-color: rgba(255,255,255,0.7);
+        float: left;
+        margin-left: 1%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .profile{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin: 30px auto 10px auto;
+        display: block;
+        position: relative;
+        box-shadow: 1px 6px 20px 0px rgba(0,0,0,0.2);
+    }
+    .profile img{
+        border-radius: 50%;
+        transform: scale(1);
+        display: block;
+        transition: all 0.3s;
+        cursor: pointer;
+    }
+    .profile img:hover{
+        transform: scale(1.03);
+        overflow: hidden;
+        transition: all 0.3s;
+    }
+    .pp{
+        width: 31.5%;
+        margin: 0 auto;
+        padding-bottom: 5px;
+        position: absolute;
+    }
+    .sampul{
+        width: 100%;
+        height: 165px;
+        background-image: url(../img/sampul.png);
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .sampuldanis{
+        width: 100%;
+        height: 165px;
+        background-image: url(../img/sampuldanis.png);
+        background-size: 100% 165px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .sampulgalang{
+        width: 100%;
+        height: 165px;
+        background-image: url(../img/sampulgalang.png);
+        background-size: 100% 165px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .sampulsukma{
+        width: 100%;
+        height: 165px;
+        background-image: url(../img/sampulsukma.png);
+        background-size: 100% 165px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .katabijak{
+        margin: 5px auto;
+        width: 75%;
+        height: 60px;
+        margin-bottom: 30px;
+    }
+    .katabijak p{
+        color: black;
+        font-family: lato;
+        font-weight: 500;
+        margin-top: 10px;
+        font-size: 12pt;
+        text-shadow: 1px 1px 0 #cccccc;
+    }
+    .facebook{
+        margin: 0 auto;
+        width: 90%;
+        height: 50px;
+        background-color: #4267b2;
+        margin-bottom: 10px;
+    }
+    .instagram{
+        margin: 0 auto;
+        width: 90%;
+        height: 50px;
+        background-color: #dd2361;
+        margin-bottom: 10px;
+    }
+    .email{
+        margin: 0 auto;
+        width: 90%;
+        height: 50px;
+        background-color: #db4437;
+        margin-bottom: 10px;
+    }
+    .icon{
+        height: 100%;
+        width: 15%;
+        background: #375695;
+        display: block;
+        float: left;
+        transition: all 0.5s;
+    }
+    .icongram{
+        height: 100%;
+        width: 15%;
+        background: #b01c4d;
+        display: block;
+        float: left;
+        transition: all 0.5s;
+    }
+    .iconmail{
+        height: 100%;
+        width: 15%;
+        background: #c23124;
+        display: block;
+        float: left;
+        transition: all 0.5s;
+    }
+    .facebook:hover .icon{
+        width: 100%;
+    }
+    .instagram:hover .icongram{
+        width: 100%;
+    }
+    .email:hover .iconmail{
+        width: 100%;
+    }
+    .akun{
+        display: block;
+        float: left;
+        line-height: 50px;
+        color: white;
+        text-decoration: none;
+        font-family: lato;
+        width: 78%;
+        text-align: left;
+        padding-left: 18%;
+        position: absolute;
+    }
+    .footer{
+        width: 97.5%;
+        height: 70px;
+        background-color: rgba(255,255,255,0.7);
+        display: block;
+        float: left;
+        margin: 0 0.5% 0 1%;
+        box-shadow: 0px 5px 16px 0px rgba(0,0,0,0.2);
+    }
+    .footer p{
+        color: #262626;
+        font-family: "calibri";
+        font-style: italic;
+        width: 87%;
+        margin: 13px auto;
+        font-size: 14pt;
+        text-shadow: 1px 1px 1px #bfbfbf;
+    }
+    .footer span{
+        color: #e60000;
+        text-shadow: 1px 1px 1px #bfbfbf;
+    }
+    .footer a{
+        text-decoration: none;
+        color: blue;
+    }
+    .atasteam{
+        background-color: white;
+        height: auto;
+    }
+    .artikel{
+        width: 700px;
+        padding: 70px auto;
+        padding-top: 200px;
+        margin: 0 auto 100px auto;
+    }
+    .judulrpl{
+        width: 100%;
+        background: url(../img/learnrpl.png) fixed 100%;
+        height: 250px;
+        margin-bottom: 100px;
+        opacity: 90;
+    }
+    .judulrpl p{
+        font-family: lato;
+        color: white;
+        font-size: 15pt;
+        padding: 70px 10px 0 10px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .judultkj{
+        width: 100%;
+        background: url(../img/learntkj.png) fixed 100%;
+        height: 250px;
+        margin-bottom: 100px;
+    }
+    .judultkj p{
+        font-family: lato;
+        color: white;
+        font-size: 15pt;
+        padding: 70px 20px 0 20px;
+        text-shadow: 2px 2px 2px black;
+    }
+    .subjudul{
+        font-family: lato;
+        color: black;
+        font-size: 14pt;
+        text-align: left;
+        margin-top: 40px;
+    }
+    .jarak{
+        font-family: lato;
+        color: black;
+        font-size: 14pt;
+        text-align: left;
+        margin-left: 20px;
+    }
+    .akhir{
+        padding-bottom: 100px;
+    }
+    .up{
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        background-color: rgba(1,1,1,0.5);
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-family: lato;
+        font-size: 20pt;
+        color: white;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 1px solid rgba(0,0,255,0.5);
+        transition: all 0.5s;
+    }
+    .up:hover{
+        background-color: rgba(0,0,255,0.5);
+        border: 1px solid rgba(1,1,1,0.5);
+    }
+    .slideimage{
+        position: relative;
+        max-width:80%;
+        margin:auto;
+        box-shadow: 2px 10px 30px 1px rgba(0,0,0,0.2);
+    }
+    .jarakslide{
+        padding-top: 100px;
+        margin-bottom: 680px;
+    }
+    .slide-button{
+        border:none;
+        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        overflow:hidden;
+        text-decoration:none;
+        color:#fff;
+        font-size: 14pt;
+        font-family: lato light;
+        background-color:rgba(1,1,1,0.6);
+        text-align:center;
+        cursor:pointer;
+        transition: all 0.4s;
+    }
+    .slide-button:hover{
+        background-color: rgba(1,1,1,0.7);
+    }
+    .sebelah-kiri{
+        position:absolute;
+        top:50%;
+        left:0%;
+        margin-left: 25px;
+        transform:translate(0%,-50%);
+    }
+    .sebelah-kanan{
+        position:absolute;
+        top:50%;
+        right:0%;
+        margin-right: 25px;
+        transform:translate(0%,-50%);
+    }
+    .mySlides{
+        display: none;
+    }
+    .slideawal{
+        display: block;
+    }
